@@ -66,11 +66,10 @@ nav {
 }
 
 #navbar a {
-    scroll-behavior: smooth;
+    display: block; /* Ensures the entire area of the anchor tag is clickable */
 }
 
 /* MAIN DOC */
-
 #main-doc {
     position: absolute;
     display: block;
